@@ -5,9 +5,12 @@
  */
 package javadesignpatterns;
 
+import javadesignpatterns.creational.singleton.Singleton;
+
 /**
- *
- * @author pc-lab1
+ * Clase Principal
+ * @author luchonetvv
+ * @version 1.0
  */
 public class JavaDesignPatterns {
 
@@ -15,7 +18,8 @@ public class JavaDesignPatterns {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Singleton singleton = Singleton.getSingleton();
+        Singleton singleton2 = Singleton.getSingleton();
     }
     
 }
